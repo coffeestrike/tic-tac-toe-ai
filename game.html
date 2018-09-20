@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="./game.css"></link>   
+  <script src="./index.js"></script>
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <h2 id="winner"></h2>
+  <div id="board">
+    <div class="ttt_row">
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+    </div>
+    <div class="ttt_row">
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+    </div>
+    <div class="ttt_row">
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+      <div class="ttt_cell"></div>
+    </div>
+  </div>
+  <div id= "scoreboard">
+    <div>
+      <span>Player (<span class="player-piece">X</span>) :</span> 
+      <span id="player-score"></span>
+    </div>
+    <div>
+      <span>Ties : </span>
+      <span id="tie-score"></span>
+    </div>
+    <div>
+      <span>Opponent (<span class="opponent-piece">O</span>):  </span>
+      <span id="opponent-score"></span>
+    </div>
+  </div>
+</body>
